@@ -13,7 +13,7 @@ namespace ConsoleUI
             Console.WriteLine();
             foreach (var car in cars)
             {
-                Console.WriteLine(car.Id + " - " + car.Description + " Brand Id: " + car.BrandId + " Color Id:" + car.ColorId + " Model Year: " + car.ModelYear + " Daily Price: " + car.DailyPrice + " TL");
+                Console.WriteLine(car.Id + " - Description: " + car.Description + " Brand Id: " + car.BrandId + " Color Id:" + car.ColorId + " Model Year: " + car.ModelYear + " Daily Price: " + car.DailyPrice + " TL");
             }
         }
         static void Main(string[] args)
